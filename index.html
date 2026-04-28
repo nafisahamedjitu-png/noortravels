@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>✈️ Ticket System</h2>
+
+<input id="name" placeholder="Name">
+<input id="phone" placeholder="Phone">
+<input id="sector" placeholder="Sector">
+<input id="ticketDate" type="date">
+<input id="flightDate" type="date">
+<input id="total" placeholder="Total">
+<input id="paid" placeholder="Paid">
+
+<select id="payment">
+  <option>Cash</option>
+  <option>Transfer</option>
+</select>
+
+<button onclick="addTicket()">Save Ticket</button>
+
+<h3>📜 History</h3>
+<div id="list"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
